@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Component Based Development &mdash; Beyond Tellerrand 2013</title>
+
+		<meta name="description" content="">
+		<meta name="author" content="Hans Christian Reinl">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+<section>
+	<section data-markdown>
+		<script type="text/template">
+			## Component Based
+			# Development
+		</script>
+	</section>
+</section>
+
+<section>
+	<section data-markdown data-state="whereyouat">
+		<script type="text/template">
+			# Hans Christian Reinl
+			Front-End Developer, Freiburg/Germany
+
+			[drublic.de](http://drublic.de/) &bull;
+			[info@drublic.de](mainto:info@drublic.de) &bull;
+			[@drublic](https://twitter.com/drublic)
+		</script>
+	</section>
+
+	<section class="projects" data-markdown>
+		<script type="text/template">
+			# Projects
+
+			[![](assets/about/html5bp.png)](http://html5boilerplate.com/ "HTML5 Boilerplate")
+			[![](assets/about/wd.png)](http://workingdraft.de/ "Workingdraft")
+			[![](assets/about/tng.png)](http://thenittygritty.co/ "The Nitty Gritty")
+
+			<small>and others: [github.com/drublic](https://github.com/drublic)</small>
+		</script>
+	</section>
+</section>
+
+<section>
+	<section data-markdown>
+		<script type="text/template">
+			## Component Based
+			# Development
+		</script>
+	</section>
+</section>
+
+<section>
+
+	<section data-markdown>
+		<script type="text/template">
+			# Style Guides
+		</script>
+	</section>
+
+</section>
+
+<section>
+	<section data-markdown>
+		<script type="text/template">
+			## Components
+
+			Like jQuery plugins.
+
+			Build Component Libraries
+
+			Bootstrap
+		</script>
+	</section>
+
+	<section data-markdown>
+		<script type="text/template">
+			## Build a Component
+
+			[Example](http://localhost/uxm-styleguides/assets/examples/)
+		</script>
+	</section>
+</section>
+
+<section>
+	<section data-markdown>
+		<script type="text/template">
+			# Recap
+		</script>
+	</section>
+
+	<section data-markdown data-state="state-questions">
+		<h1 class="inverted">Questions?</h1>
+
+		# ♥
+	</section>
+
+</section>
+
+
+			</div>
+
+			<!-- Pesentation Details -->
+			<div class="pesentation-details">
+				<p>Component Based Development &bull; Beyond Tellerrand 2013 &bull; Hans Chr. Reinl /
+					<a href="https://twitter.com/drublic" title="Follow me on Twitter">@drublic</a></p>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,50 @@
+/**
+ * My Awesome accorion - >^<
+ */
+
+// Import normalize and other helpers
+@import 'helpers';
+
+// Main Styles for accordion
+.accordion {
+
+	// Headlines
+	h2 {
+		margin: 0;
+		text-align: center;
+
+
+		> a {
+			display: block;
+			background: #ddd;
+
+			text-decoration: none;
+		}
+
+	}
+}
+
+
+// Content
+.accordion-content {
+	display: none;
+}
+
+// If active
+.accordion-item:target {
+	.accordion-content {
+		display: block;
+	}
+}
+
+
+
+
+
+
+
+// Misc
+html {
+	width: 400px;
+	margin: 2rem auto;
+}
