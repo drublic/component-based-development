@@ -1,0 +1,14 @@
+/**
+ * >^<
+ */
+
+// Import normalize and other helpers
+@import '../helpers';
+
+@import 'teaser';
+
+// Misc
+html {
+	max-width: 700px;
+	margin: 2rem auto;
+}

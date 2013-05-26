@@ -10,6 +10,11 @@ body {
 	text-shadow: none;
 }
 
+
+.reveal .slides {
+	text-align: left;
+}
+
 /* Headlines */
 .reveal h1,
 .reveal h2,
@@ -18,6 +23,7 @@ body {
 .reveal h5,
 .reveal h6 {
 	color: #333;
+	text-transform: none;
 	text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -180,6 +186,7 @@ body {
 
 .reveal pre {
 	box-shadow: none;
+	margin-left: 0;
 }
 
 .reveal pre code {
@@ -296,10 +303,10 @@ th, td {
 }
 
 
-.footer-alignment {
-	position: absolute;
-	right: 0;
-	bottom: -16rem;
+.reveal .footer-alignment {
+	display: block;
+	margin-top: 5rem;
+	text-align: right;
 }
 
 .reveal small a:not(.image),
@@ -307,39 +314,36 @@ th, td {
 	color: #aaa;
 }
 
+.reveal h1 {
+	text-shadow: 1px 0 0 rgba(255,255,255,0.75),
+	             0 1px 0 rgba(255,255,255,0.75),
+	             1px 1px 0 rgba(255,255,255,0.75),
+	             -1px 0 0 rgba(255,255,255,0.75),
+	             0 -1px 0 rgba(255,255,255,0.75),
+	             -1px -1px 0 rgba(255,255,255,0.75);
+}
 
-
-.state-publishers h1,
-.state-lufthansa h1,
-.state-questions h1,
-.state-ateam h1,
-.state-christians h1,
-.state-judaism h1 {
-	text-shadow: 1px 0 0 rgba(255,255,255,0.7),
-	             0 1px 0 rgba(255,255,255,0.7),
-	             0 -1px 0 rgba(255,255,255,0.7),
-	             -1px 0 0 rgba(255,255,255,0.7),
-	             2px 0 0 rgba(255,255,255,0.7),
-	             0 2px 0 rgba(255,255,255,0.7),
-	             0 -2px 0 rgba(255,255,255,0.7),
-	             -2px 0 0 rgba(255,255,255,0.7),
-	             3px 0 0 rgba(255,255,255,0.7),
-	             0 3px 0 rgba(255,255,255,0.7),
-	             0 -3px 0 rgba(255,255,255,0.7),
-	             -3px 0 0 rgba(255,255,255,0.7),
-	             4px 0 0 rgba(255,255,255,0.7),
-	             0 4px 0 rgba(255,255,255,0.7),
-	             0 -4px 0 rgba(255,255,255,0.7),
-	             -4px 0 0 rgba(255,255,255,0.7),
-	             0 0 10px #fff,
-	             0 0 15px #fff,
-	             0 0 20px #000,
-	             0 0 30px #000;
+.microsoft body {
+	background: url(../assets/ms-homepage.jpg) no-repeat;
+	background-size: 100% auto;
 }
 
 
-.state-publishers .footer-alignment,
-.state-lufthansa .footer-alignment,
-.state-judaism .footer-alignment {
-	bottom: -14rem;
+.reveal .lib-pro,
+.reveal .lib-con {
+	display: inline-block;
+	width: 2rem;
+	font-size: 2.5rem;
+	font-weight: bold;
+	text-align: center;
+	color: green;
+}
+
+.reveal .lib-con {
+	color: red;
+}
+
+
+.reveal .centered {
+	text-align: center;
 }

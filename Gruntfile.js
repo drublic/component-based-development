@@ -38,8 +38,10 @@ module.exports = function(grunt) {
 				src: [
 					'content/header.html',
 					'content/intro.html',
-					'content/styleguides.html',
+					'content/why.html',
+					'content/microsoft.html',
 					'content/prototyping.html',
+					'content/dependency.html',
 					'content/outro.html',
 					'content/footer.html'
 				],
