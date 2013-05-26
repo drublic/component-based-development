@@ -683,6 +683,21 @@ textarea {
  * Component: Teaser
  * Displays image and Link to sub-pages on homepage
  */
+.teaser {
+  max-width: 20rem; }
+
+.teaser-image {
+  display: none;
+  max-width: 100%; }
+  .teaser-image.is-active {
+    display: block; }
+
+@media screen and (max-width: 30em) {
+  .teaser-image {
+    float: left;
+    max-width: 50%;
+    margin-right: 1rem; } }
 html {
   max-width: 700px;
-  margin: 2rem auto; }
+  margin: 1rem auto;
+  padding: 1rem; }
