@@ -6,6 +6,18 @@
 .teaser {
 	// Default styling
 
+	max-width: 200px;
+
 	// Media Queries
+}
+
+.teaser-image {
+	width: 50%;
+}
+
+@media screen and (max-width: 30em) {
+	.teaser-image {
+		max-width: 100%;
+	}
 }
 
